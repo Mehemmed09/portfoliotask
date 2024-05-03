@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navDiv{
+cursor: pointer;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    background-color: rgb(14, 14, 14);
+  color: white;
+ 
+}
+.NavList{
+  ul{
+    display: flex;
+    gap: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+.NavMenu{
+  span{
+    padding: 20px;
+    background-color: #55e6a5;
+    color: black;
+    border-radius: 10px;
+    height: 100%;
+  }
+  button{
+      height: 100%;
+  }
+}
+.offcanvas-header{
+  background-color: #212529;
+}
+#offcanvasRightLabel{
+  img{
+    padding: 5px;
+    height: 40px;
+  }
+}
+.btn-close{
+  background-color: #55e6a5;
+  border-radius: 50%;
+  width: 40px;
+  height: 10px;
+}
+.offcanvas-body{
+  background: #09101a;
+}
+.content-box{
+  color: white;
+  h5{
+    font-size: 20px;
+  line-height: 24px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+}
+.offcanvas_contact_form{
+  color: white;
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+  }
+  input{
+    padding: 30px 0px 0px 0px;
+    background: fixed;
+    border: 1px solid #55e6a5;
+  }
+  button{
+    background-color: #55e6a5;
+    text-align: center;
+    border: none;
+    padding: 20px 40px;
+    width: 200px;
+    height: 64px;
+  }
+}
+#textarea{
+  background: fixed;
+  border: 1px solid #55e6a5;
+}
+
+
+
+
