@@ -1,0 +1,79 @@
+.Design{
+    background-color: #02050a;
+}
+.DesignTextDiv{
+    color: white;
+    span{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 45px;
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background-color:#09101A;
+    i{
+        color: aqua;
+        font-size: 60px;
+    }
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.offcanvas_contact_form{
+    background-color: #09101A;
+    padding: 40px;
+}
+.number::after {
+    font: 800 40px system-ui;
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+counter-reset: none; 
+ }
+
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    20% {
+      counter-increment: count 2;
+    }
+    30% {
+      counter-increment: count 3;
+    }
+    40% {
+      counter-increment: count 4;
+    }
+    50% {
+      counter-increment: count 5;
+    }
+    60% {
+      counter-increment: count 6;
+    }
+    70% {
+      counter-increment: count 7;
+    }
+    80% {
+      counter-increment: count 8;
+    }
+    90% {
+      counter-increment: count 9;
+    }
+    100% {
+      counter-increment: count 10;
+    }
+  }
+  
